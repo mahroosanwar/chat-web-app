@@ -20,7 +20,7 @@ This is a real-time chat application built using React and Socket.IO. It allows 
 
 ![Dark Mode Sidebar](https://i.postimg.cc/XJbKjqv8/sidebar-dark.png)
 
-![Light Mode Sidebar](https://i.postimg.cc/tTN3YbZH/sidebar-light.png)
+![Light Mode Sidebar](https://i.postimg.cc/63qp270K/sidebar-light.png)
 
 The theming adaptation in this application is achieved using Theme UI. Theme UI is a library that provides a theme-aware design system for building React applications. It allows for easy theming and styling customization.
 
