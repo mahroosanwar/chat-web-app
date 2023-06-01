@@ -1,0 +1,17 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-450px);
+  padding-top: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  &.active {
+    transform: translateX(0);
+  }
+}

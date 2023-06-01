@@ -1,0 +1,30 @@
+:root {
+  --orange: #fca61f;
+}
+
+.hamburger-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cross-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.n-right {
+  position: fixed;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+  width: 3rem;
+  margin: 10px;
+}
