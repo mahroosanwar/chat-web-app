@@ -5,9 +5,8 @@ This is a real-time chat application built using React and Socket.IO. It allows 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Real-Time Messaging](#real-time-messaging)
 - [Theming Adaptation](#theming-adaptation)
+- [Real-Time Messaging](#real-time-messaging)
 - [Code Highlighting](#code-highlighting)
 
 ## Installation
@@ -15,6 +14,22 @@ This is a real-time chat application built using React and Socket.IO. It allows 
 1. Clone the repository: `git clone https://github.com/mahroosanwar/chat-web-app.git`
 2. Navigate to the project directory: `cd chat-app`
 3. Install dependencies: `npm install`
+
+
+## Theming Adaptation
+
+![Dark Mode Sidebar](https://i.postimg.cc/XJbKjqv8/sidebar-dark.png)
+
+![Light Mode Sidebar](https://i.postimg.cc/tTN3YbZH/sidebar-light.png)
+
+The theming adaptation in this application is achieved using Theme UI. Theme UI is a library that provides a theme-aware design system for building React applications. It allows for easy theming and styling customization.
+
+To implement theming adaptation, the following steps were taken:
+
+1. Defining a theme object that includes color palettes, font styles, and other theme-related properties.
+2. Setting up React state management to hold the selected theme and update it dynamically.
+3. Utilizing CSS variables and the `ThemeProvider` component from Theme UI to apply the selected theme styles to the chat sidebar and its components.
+4. Adding a theme selector in the sidebar settings or UI control to allow users to switch between light and dark themes.
 
 ## Real-Time Messaging
 
@@ -25,17 +40,6 @@ The logic for real-time messaging involves the following steps:
 1. Establishing a WebSocket connection between the client and the server using Socket.IO.
 2. Emitting and handling events on the server and client to send and receive chat messages.
 3. Updating the UI in real-time by adding new messages to the chat interface whenever a new message is received.
-
-## Theming Adaptation
-
-The theming adaptation in this application is achieved using Theme UI. Theme UI is a library that provides a theme-aware design system for building React applications. It allows for easy theming and styling customization.
-
-To implement theming adaptation, the following steps were taken:
-
-1. Defining a theme object that includes color palettes, font styles, and other theme-related properties.
-2. Setting up React state management to hold the selected theme and update it dynamically.
-3. Utilizing CSS variables and the `ThemeProvider` component from Theme UI to apply the selected theme styles to the chat sidebar and its components.
-4. Adding a theme selector in the sidebar settings or UI control to allow users to switch between light and dark themes.
 
 ## Code Highlighting
 
